@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="black: #EAF4D3;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+    <children>
+        <Text fx:id="timer" blendMode="COLOR_BURN" layoutX="182.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="236.0">
+            <font>
+                <Font name="Calibri" size="40.0" />
+            </font>
+        </Text>
+        <TextField fx:id="alarmTime" layoutX="198.0" layoutY="215.0" prefHeight="57.0" prefWidth="204.0" />
+    </children>
+</AnchorPane>
